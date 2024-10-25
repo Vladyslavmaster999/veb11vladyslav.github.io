@@ -10,11 +10,13 @@
         alert("My first dialog box");
         const answer = confirm("Would you like to continue viewing my assignment?");
         if (answer) {
-            const name = prompt("Enter your name", "");
-            const name = prompt("Enter your age");
-            alert(name + ", You checked my lab work!");
+            const userName = prompt("Enter your name", "");
+            const age = prompt("Enter your age");
+            alert(userName + ", You checked my lab work!");
         }
-        else alert("Let's check later!");
+        else {
+            alert("Let's check later!");
+        }
     </script>
 </body>
 </html>
